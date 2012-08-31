@@ -27,11 +27,6 @@ if (!empty($comment_text)) {
 	} else {
 		answers_notify_comment($object, $comment_text, $_SESSION['user']);
 		
-		
-		// success, so add to river
-		var_dump($object->question_guid);
-		var_dump($object->getGUID());
-		
 		add_to_river('river/object/question/comment', 'comment', $_SESSION['user']->guid, $object->getGUID());
 		//add_to_river('river/object/question/comment', 'comment', $_SESSION['user']->guid, $object_id);
 	}
