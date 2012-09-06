@@ -147,6 +147,11 @@ a.collapsibleboxlink {
 	padding: 0 0 0 16px;
 }
 
+.topic_post table td {
+	padding: 6px 0 6px 0;
+}
+
+
 .river_object_question_create, .river_object_question_update {
 	background: url(mod/answers/graphics/river_icon_question.gif) no-repeat left -1px;
 }

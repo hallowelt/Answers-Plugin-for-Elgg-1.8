@@ -32,7 +32,7 @@ $english = array(
 	'answers:question:add' => "Eine Frage stellen",
 	'answers:question:groupadd' => "Eine Frage in %s stellen",
 	'answers:question:edit' => "Frage bearbeiten",
-	'answers:question:fulltitle' => "Frage: %s",
+	'answers:question:fulltitle' => "%s",
 	'answers:questiontitle' => "Frage",
 	'answers:questiondetails' => "Zusätzliche Details",
 	'answers:strapline' => "%s",
@@ -133,6 +133,7 @@ Kommentar:
 Link zum Kommentar:
 %s
 ",
+	'river:comment:object:default' => '%s kommentierte eine Frage.'
 
 );
 					
