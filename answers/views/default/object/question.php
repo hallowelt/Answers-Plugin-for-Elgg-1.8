@@ -89,7 +89,7 @@ if (isset($vars['entity'])) {
 					if ($full) {
 						$tags = elgg_view('output/tags', array('tags' => $vars['entity']->tags));
 						if (!empty($tags)) {
-							echo '<div class="tags">' . $tags . '</div>';
+							echo '<b>' . elgg_echo('tags') . '</b><div class="tags">' . $tags . '</div>';
 						}
 					}
 					?>

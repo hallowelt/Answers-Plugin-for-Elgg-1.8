@@ -25,7 +25,7 @@ if ($question instanceof ElggEntity && $question->getSubtype() == "question") {
 	$area2 .= elgg_view_entity($question, array('full_view' => true));
 
 	// Set the title appropriately
-	$title = $question->title;
+	$title = sprintf(elgg_echo("answers:question:fulltitle"), $question->title);
 
 	// Display through the correct canvas area
 	//$body = elgg_view_layout("two_column_left_sidebar", '', $area2);
