@@ -27,7 +27,7 @@ if (!empty($comment_text)) {
 	} else {
 		answers_notify_comment($object, $comment_text, $_SESSION['user']);
 		
-		add_to_river('river/object/question/comment', 'comment', $_SESSION['user']->guid, $object->getGUID());
+		add_to_river('river/object/question/comment', 'comment', elgg_get_logged_in_user_guid(), $object->getGUID());
 		//add_to_river('river/object/question/comment', 'comment', $_SESSION['user']->guid, $object_id);
 	}
 } else {
