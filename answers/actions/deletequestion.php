@@ -6,6 +6,11 @@
 // Get input data
 $guid = (int) get_input('question_id');
 
+// fix
+if(!$guid){
+	$guid = (int) get_input('guid');
+}
+
 // Make sure we actually have permission to edit
 $question = get_entity($guid);
 if ($question->getSubtype() == "question" && $question->canEdit()) {
