@@ -40,7 +40,7 @@ if (isset($vars['entity'])) {
 	<!-- display the input form -->
 	<form action="<?php echo $vars['url']; ?>action/<?php echo $action; ?>" method="post">
 		<p>
-			<label><?php echo elgg_echo("answers:question"); ?><br />
+			<label><?php echo elgg_echo("answers:question"); ?></label><br />
 			<?php echo elgg_view("input/text", array(
 							"name" => "questiontitle",
 							"value" => $title,
@@ -63,7 +63,7 @@ if (isset($vars['entity'])) {
 
 		<!-- topic message input -->
 		<p class="longtext_editarea">
-			<label><?php echo elgg_echo("answers:questiondetails"); ?><br />
+			<label><?php echo elgg_echo("answers:questiondetails"); ?></label><br />
 			<?php
 				echo elgg_view("input/longtext", array(
 					"name" => "questiondetails",

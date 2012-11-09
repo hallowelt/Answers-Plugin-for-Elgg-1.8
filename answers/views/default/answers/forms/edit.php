@@ -45,7 +45,7 @@ echo elgg_view("input/text", array(
 
 		<!-- display the tag input -->
 		<p>
-			<label><?php echo elgg_echo("tags"); ?><br />
+			<label><?php echo elgg_echo("tags"); ?></label><br />
 <?php
 				echo elgg_view("input/tags", array(
 					"internalname" => "questiontags",
@@ -56,7 +56,7 @@ echo elgg_view("input/text", array(
 
 		<!-- topic message input -->
 		<p class="longtext_editarea">
-			<label><?php echo elgg_echo("answers:questiondetails"); ?><br />
+			<label><?php echo elgg_echo("answers:questiondetails"); ?></label><br />
 <?php
 				echo elgg_view("input/longtext", array(
 					"internalname" => "questiondetails",
