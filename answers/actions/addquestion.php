@@ -49,6 +49,10 @@ if (empty($title)) {
 		register_error(elgg_echo("answers:question:saveerror"));
 		forward("mod/answers/add.php");
 	}
+	
+	$aQuestion = explode("/", $question->getURL());
+    unset($aQuestion[count($aQuestion)-1]);
+    $question->setURL(implode("/", $aQuestion));
 
 	if (is_array($tagarray)) {
 		$question->tags = $tagarray;
