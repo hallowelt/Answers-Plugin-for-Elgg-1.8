@@ -6,7 +6,7 @@
 	<blurb>Elgg Question and Answer Plugin for Elgg 1.8</blurb>
 	<description>Elgg Question and Answer Plugin for Elgg 1.8</description>
 	<website>https://github.com/hallowelt/Answers-Plugin-for-Elgg-1.8</website>
-	<copyright>(C) HalloWelt! - Medienwerkstatt GmbH</copyright>
+	<copyright>(C) JHU/APL 2009-2011</copyright>
 	<license>GNU Public License version 2</license>
 	<category>3rd_party_integration</category>
 	<requires>
